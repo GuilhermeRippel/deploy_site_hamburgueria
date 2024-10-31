@@ -5,7 +5,7 @@ import Veganos from '../components/Veganos';
 import Bebidas from '../components/Bebidas';
 import { Link } from "react-router-dom";
 import { useState, useRef} from "react";
-import Footer from '../components/footer';
+import Footer from '../components/Footer.jsx';
 import Arrow_up from '../assets/arrow_up.svg'
 import ButtonScrollTop from '../components/ButtonScrollTop';
 import Carrinho_logo from '../assets/carrinho_logo.svg'
