@@ -13,7 +13,7 @@ import FoodTruck from '../assets/food_truck.jpg'
 import Arrow from '../assets/arrow.svg'
 import Arrow_up from '../assets/arrow_up.svg'
 import Cardapio_print from '../assets/cardapio_print.png'
-import Footer from '../components/footer'
+import Footer from '../components/Footer.jsx'
 import ButtonScrollTop from '../components/ButtonScrollTop'
 import { FaFire } from 'react-icons/fa'
 
