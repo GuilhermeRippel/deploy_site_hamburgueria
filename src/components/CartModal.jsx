@@ -19,7 +19,7 @@ function CartModal({ onClose, total, items, removeFromCart }) {
           <div className="flex justify-center sm:mb-4">
             <h1 className="font-bold font-bebas text-3xl sm:text-4xl text-red-500">Resumo do seu pedido</h1>
           </div>
-          <div className="flex flex-col justify-between w-full gap-2 overflow-y-scroll flex-grow border-b border-gray-300 pb-5 max-h-[80%]">
+          <div className="flex flex-col justify-start w-full gap-2 overflow-y-scroll flex-grow border-b border-gray-300 pb-5 max-h-[80%]">
             {items && items.length > 0 ? (
               items.map((item) => (
                 <div key={item.id} className="flex justify-between items-center w-full p-2 shadow-lg bg-white rounded-md border border-red-300">
